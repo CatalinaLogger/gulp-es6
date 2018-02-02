@@ -1,0 +1,36 @@
+{
+  console.log(0b00001000111);
+  console.log(0o6677462);
+}
+{
+  console.log(Number.isFinite(15));//是否有尽
+  console.log(Number.isFinite(NaN));
+  console.log(Number.isFinite('true'/0));
+  console.log(Number.isNaN(NaN));//是否非数字
+}
+{
+  console.log(Number.isInteger(25));
+  console.log(Number.isInteger(25.0));
+  console.log(Number.isInteger(25.1));
+  console.log(Number.isInteger('25'));
+}
+{
+  console.log(Number.MAX_SAFE_INTEGER,Number.MIN_SAFE_INTEGER);
+  console.log(Number.isSafeInteger(10));
+  console.log(Number.isSafeInteger('a'));
+}
+{
+  console.log(Math.trunc(4.1));
+  console.log(Math.trunc(4.9));
+}
+{
+  console.log(Math.sign(-5));
+  console.log(Math.sign(0));
+  console.log(Math.sign(5));
+  console.log(Math.sign('-50'));
+  console.log(Math.sign('a'));
+}
+{
+  console.log(Math.cbrt(-1));
+  console.log(Math.cbrt(8));
+}
